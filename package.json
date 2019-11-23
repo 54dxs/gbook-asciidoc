@@ -1,0 +1,36 @@
+{
+  "name": "gbook-asciidoc",
+  "version": "1.0.0",
+  "description": "GBook AsciiDoc解析器",
+  "main": "lib/index.js",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "asciidoctor.js": "1.5.5-1",
+    "gbook-html": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "2.3.2"
+  },
+  "scripts": {
+    "test": "export TESTING=true; mocha --reporter list --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/54dxs/gbook-asciidoc.git"
+  },
+  "author": {
+    "name": "54大学生",
+    "email": "374452668@qq.com"
+  },
+  "contributors": [
+    {
+      "name": "深情小建",
+      "email": "374452668@qq.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/54dxs/gbook-asciidoc/issues"
+  },
+  "homepage": "https://github.com/54dxs/gbook-asciidoc#readme"
+}
